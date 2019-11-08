@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_package = "com.doit.once.pojo";
+option java_outer_classname = "LogBeansProto";
+
+message LogBeans{
+repeated LogBean logBeans = 1;
+}
+
+message LogBean {
+    string uid = 1;
+    string event_id = 2;
+    string event_name = 3;
+    string province = 4;
+    string city = 5;
+    string district = 6;
+    double longitude = 7;
+    double latitude = 8;
+}

@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6337a926-331b-409a-a953-6d5c4e92e35a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/src/main/proto/LogBean.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/generated-sources/protobuf/java/com/doit/once/pojo/LogBeansProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/any.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/descriptor.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/duration.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/empty.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/field_mask.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/source_context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/struct.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/timestamp.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/type.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/wrappers.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-plugins/protoc-3.7.1-windows-x86_64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/data_process/DataProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/pojo/LogBeansProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/FlinkUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/MyByteArraySerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ProvinceMapFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ReadEventDIC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/pojo/EventUserCountBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/ReadEventDIC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/WriteToRedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/data_predeal/DataSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/myFunction/GeoRichMapFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/pojo/EventLogBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/util/FlinkUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/src/test/java/com/doit/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/data_process/DataProcess$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/data_process/DataProcess$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/data_process/DataProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBean$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBean$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeanOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeans$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeans$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeans.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeansOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/FlinkUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/MyByteArraySerialize.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/ProvinceMapFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/ReadEventDIC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/pojo/EventUserCountBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/util/ReadEventDIC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/util/WriteToRedis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/myFunction/GeoRichMapFunction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/pojo/EventLogBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/util/FlinkUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/util/RedisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/test-classes/com/doit/MyProduce.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/target/test-classes/com/doit/MyTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/stream/target/" />
+    <ignored path="$PROJECT_DIR$/proto_init/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ActiveUserCount.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="60" column="55" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/data_predeal/DataSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyProduce.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FlinkKafkaProducer</find>
+      <find>beg</find>
+      <find>commit</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/data_predeal/DataPre.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/util/FlinkUtil.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pojo/EventBean.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/util/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pojo/EventLogBean.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/myFunction/GeoRichMapFunction.java" />
+        <option value="$PROJECT_DIR$/proto_init/pom.xml" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/data_predeal/DataSort.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/pojo/LogBeanProto.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/test/util/FlinkUtil.java" />
+        <option value="$PROJECT_DIR$/proto_init/src/main/proto/LogBeans.proto" />
+        <option value="$PROJECT_DIR$/proto_init/src/main/proto/LogBean.proto" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/pojo/LogBeansProto.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/MyByteArraySerialize.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ProvinceMapFunction.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ReadEventDIC.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/data_process/DataProcess.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/WriteToRedis.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/ReadEventDIC.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/pojo/EventUserCountBean.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/FlinkUtils.java" />
+        <option value="$PROJECT_DIR$/stream/src/test/java/com/doit/MyTest.java" />
+        <option value="$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java" />
+        <option value="$PROJECT_DIR$/stream/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/develop/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\BigData\maven-pro\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="proto_init" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="proto_init" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="proto_init" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="protobuf" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="width" value="683" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="once" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="at_time" type="b2602c69:ProjectViewProjectNode" />
+              <item name="at_time" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="once" type="462c0819:PsiDirectoryNode" />
+              <item name="data_process" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ListCheckP&#9;FILE&#9;jar://G:/my-maven/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2.jar!/org/apache/flink/streaming/api/checkpoint/ListCheckpointed.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.doit.once.pojo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ActiveUserCount">
+    <configuration name="ActiveUserCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.pv_uv.ActiveUserCount" />
+      <module name="stream" />
+      <option name="PROGRAM_PARAMETERS" value="--ck_time 5000 --restart_count 30 --topics active_event --bootstrap.servers linux01:9092,linux02:9092,linux03:9092 --group.id g024" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doit.pv_uv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DataProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.once.data_process.DataProcess" />
+      <module name="stream" />
+      <option name="PROGRAM_PARAMETERS" value="--ck_time 5000 --restart_count 3 --topics stream --bootstrap.servers linux01:9092,linux02:9092,linux03:9092 --group.id g01" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doit.once.data_process.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DataSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.test.data_predeal.DataSort" />
+      <module name="stream" />
+      <option name="PROGRAM_PARAMETERS" value="--topics streamjson --ck_time 5000 --restart_count 5 --bootstrap.servers linux01:9092,linux02:9092,linux03:9092 --group.id g02" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doit.test.data_predeal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MyProduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.MyProduce" />
+      <module name="stream" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.doit.MyTest" />
+      <module name="stream" />
+      <option name="PROGRAM_PARAMETERS" value="--ck_time 5000 --restart_count 3" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.doit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.DataSort" />
+      <item itemvalue="Application.MyProduce" />
+      <item itemvalue="Application.DataProcess" />
+      <item itemvalue="Application.ActiveUserCount" />
+      <item itemvalue="Application.MyTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ActiveUserCount" />
+        <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.DataProcess" />
+        <item itemvalue="Application.MyProduce" />
+        <item itemvalue="Application.DataSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6337a926-331b-409a-a953-6d5c4e92e35a" name="Default" comment="" />
+      <created>1567165334666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567165334666</updated>
+      <workItem from="1567165346341" duration="13259000" />
+      <workItem from="1567212586494" duration="6678000" />
+      <workItem from="1567305565470" duration="42289000" />
+      <workItem from="1567474057401" duration="1844000" />
+      <workItem from="1573220465640" duration="2416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66486000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32942432" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.62932456" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8703704" visible="true" weight="0.21481876" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info id="Structure" order="1" sideWeight="0.12962963" side_tool="true" weight="0.21481876" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5914333" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3294893" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.proto" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/SinkFunction.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/functions/RichFunction.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/java/typeutils/InputTypeConfigurable.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-connector-filesystem_2.11/1.7.2/flink-connector-filesystem_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/connectors/fs/bucketing/BucketingSink.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/checkpoint/CheckpointedFunction.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-runtime_2.11/1.7.2/flink-runtime_2.11-1.7.2.jar!/org/apache/flink/runtime/state/CheckpointListener.class" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/runtime/tasks/ProcessingTimeCallback.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/TwoPhaseCommitSinkFunction.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/A.java" />
+    <entry file="file://$PROJECT_DIR$/proto_init/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/pojo/EventLogBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/pojo/LogBeanProto.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-connector-kafka-base_2.11/1.7.2/flink-connector-kafka-base_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumerBase.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-connector-kafka_2.11/1.7.2/flink-connector-kafka_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaConsumer.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/serialization/DeserializationSchema.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/util/FlinkUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proto_init/src/main/proto/LogBeans.proto" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/serialization/SimpleStringSchema.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/MyByteArraySerialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proto_init/src/main/proto/LogBean.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ProvinceMapFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="15" column="93" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/java/tuple/Tuple2.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/state/MapStateDescriptor.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/typeinfo/Types.java" />
+    <entry file="jar://G:/my-maven/repository/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.jar!/com/google/protobuf/AbstractMessageLite.class" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/pojo/LogBeansProto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="1289" column="28" selection-start-line="1289" selection-start-column="28" selection-end-line="1289" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/my-maven/repository/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1-sources.jar!/com/google/protobuf/MessageLite.java" />
+    <entry file="jar://E:/JAVA/jdk1.8.0_102/jdk1.8.0_102/src.zip!/java/io/Serializable.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/typeinfo/TypeInformation.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/datastream/DataStream.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/typeinfo/BasicTypeInfo.java" />
+    <entry file="jar://G:/my-maven/repository/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1-sources.jar!/com/google/protobuf/AbstractMessageLite.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/data_process/DataProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="823">
+          <caret line="93" column="43" lean-forward="true" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ReadEventDIC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-streaming-java_2.11/1.7.2/flink-streaming-java_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/api/functions/sink/RichSinkFunction.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-core/1.7.2/flink-core-1.7.2-sources.jar!/org/apache/flink/api/common/functions/AbstractRichFunction.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/WriteToRedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/ReadEventDIC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/pojo/EventUserCountBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/JAVA/jdk1.8.0_102/jdk1.8.0_102/src.zip!/java/lang/Thread.java" />
+    <entry file="file://$PROJECT_DIR$/stream/src/test/java/com/doit/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/my-maven/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1.jar!/org/apache/kafka/clients/producer/internals/TransactionManager.class" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-connector-kafka_2.11/1.7.2/flink-connector-kafka_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-connector-kafka_2.11/1.7.2/flink-connector-kafka_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/internal/FlinkKafkaInternalProducer.java" />
+    <entry file="jar://G:/my-maven/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class" />
+    <entry file="file://$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/FlinkUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/data_predeal/DataSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="60" column="55" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>proto_init</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.128" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.hsr:geohash:1.0.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
