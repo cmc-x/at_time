@@ -43,6 +43,9 @@ public class ActiveUserCount {
                     out.collect(bean);
                 } catch (Exception e) {
                     e.printStackTrace();
+
+                    e.printStackTrace();
+
                 }
             }
         });
