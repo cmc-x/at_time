@@ -47,6 +47,7 @@ public class ActiveUserCount {
                     e.printStackTrace();
 
                     e.printStackTrace();
+                    System.out.println(e);
                 }
             }
         });

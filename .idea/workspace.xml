@@ -1,85 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6337a926-331b-409a-a953-6d5c4e92e35a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/src/main/proto/LogBean.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/generated-sources/protobuf/java/com/doit/once/pojo/LogBeansProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/any.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/api.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/compiler/plugin.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/descriptor.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/duration.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/empty.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/field_mask.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/source_context.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/struct.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/timestamp.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/type.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-dependencies/1c968e01752d00a26bafeccef61307b7/google/protobuf/wrappers.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proto_init/target/protoc-plugins/protoc-3.7.1-windows-x86_64.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/data_process/DataProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/pojo/LogBeansProto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/FlinkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/MyByteArraySerialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ProvinceMapFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/ReadEventDIC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/pojo/EventUserCountBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/ReadEventDIC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/WriteToRedis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/data_predeal/DataSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/myFunction/GeoRichMapFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/pojo/EventLogBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/util/FlinkUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/test/util/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/src/test/java/com/doit/MyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/data_process/DataProcess$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/data_process/DataProcess$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/data_process/DataProcess.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBean$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBean$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeanOrBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeans$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeans$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeans.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto$LogBeansOrBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/pojo/LogBeansProto.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/FlinkUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/MyByteArraySerialize.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/ProvinceMapFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/once/util/ReadEventDIC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/ActiveUserCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/pojo/EventUserCountBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/util/ReadEventDIC.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/pv_uv/util/WriteToRedis.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/data_predeal/DataSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/myFunction/GeoRichMapFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/pojo/EventLogBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/util/FlinkUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/classes/com/doit/test/util/RedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/test-classes/com/doit/MyProduce.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream/target/test-classes/com/doit/MyTest.class" afterDir="false" />
+    <list default="true" id="6337a926-331b-409a-a953-6d5c4e92e35a" name="Default" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,8 +35,8 @@
       <file leaf-file-name="ActiveUserCount.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+            <state relative-caret-position="588">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,8 +47,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stream/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="60" column="55" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="55" />
+            <state relative-caret-position="1600">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -132,7 +56,7 @@
       <file leaf-file-name="DataSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/data_predeal/DataSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="3450">
               <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -144,7 +68,7 @@
       <file leaf-file-name="MyProduce.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="1000">
               <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -171,6 +95,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,11 +125,11 @@
         <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/WriteToRedis.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/util/ReadEventDIC.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/pojo/EventUserCountBean.java" />
-        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java" />
         <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/FlinkUtils.java" />
         <option value="$PROJECT_DIR$/stream/src/test/java/com/doit/MyTest.java" />
         <option value="$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java" />
         <option value="$PROJECT_DIR$/stream/pom.xml" />
+        <option value="$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java" />
       </list>
     </option>
   </component>
@@ -244,9 +173,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -254,9 +183,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -465,8 +394,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ActiveUserCount" />
         <item itemvalue="Application.MyTest" />
+        <item itemvalue="Application.ActiveUserCount" />
         <item itemvalue="Application.DataProcess" />
         <item itemvalue="Application.MyProduce" />
         <item itemvalue="Application.DataSort" />
@@ -487,15 +416,32 @@
       <workItem from="1567212586494" duration="6678000" />
       <workItem from="1567305565470" duration="42289000" />
       <workItem from="1567474057401" duration="1844000" />
-      <workItem from="1573220465640" duration="2416000" />
+      <workItem from="1573220465640" duration="3779000" />
+      <workItem from="1587807688638" duration="262000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1573223912654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573223912654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <created>1587807800444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587807800444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66486000" />
+    <option name="totallyTimeSpent" value="68111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -503,15 +449,15 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3293348" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293348" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.62932456" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8703704" visible="true" weight="0.21481876" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8703704" visible="true" weight="0.21695095" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.12962963" side_tool="true" weight="0.21481876" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -534,8 +480,38 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.proto" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,9 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -676,16 +649,6 @@
     <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-connector-kafka_2.11/1.7.2/flink-connector-kafka_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer.java" />
     <entry file="jar://G:/my-maven/repository/org/apache/flink/flink-connector-kafka_2.11/1.7.2/flink-connector-kafka_2.11-1.7.2-sources.jar!/org/apache/flink/streaming/connectors/kafka/internal/FlinkKafkaInternalProducer.java" />
     <entry file="jar://G:/my-maven/repository/org/apache/kafka/kafka-clients/2.0.1/kafka-clients-2.0.1.jar!/org/apache/kafka/clients/producer/KafkaProducer.class" />
-    <entry file="file://$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/once/util/FlinkUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1406">
@@ -696,10 +659,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/data_predeal/DataSort.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
+        <state relative-caret-position="588">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -708,15 +671,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stream/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="60" column="55" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="55" />
+        <state relative-caret-position="1600">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="69" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/pv_uv/ActiveUserCount.java">
+    <entry file="file://$PROJECT_DIR$/stream/src/main/java/com/doit/test/data_predeal/DataSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        <state relative-caret-position="3450">
+          <caret line="149" column="32" selection-start-line="149" selection-start-column="32" selection-end-line="149" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream/src/test/java/com/doit/MyProduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
