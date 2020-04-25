@@ -39,21 +39,10 @@ public class ActiveUserCount {
                 try {
                     String[] strs = line.split(",");
                     EventUserCountBean bean = new EventUserCountBean(strs[0], strs[1], strs[2], strs[3], strs[4]);
-                    EventUserCountBean bean1 = new EventUserCountBean(strs[0], strs[1], strs[2], strs[3], strs[4]);
                     bean.setCount(1);
                     out.collect(bean);
                 } catch (Exception e) {
                     e.printStackTrace();
-
-                    e.printStackTrace();
-
-                    e.printStackTrace();
-                    System.out.println(e);
-                    System.out.println(e);
-                    System.out.println(e);
-                    System.out.println(e);
-                    System.out.println(1.2);
-                    System.out.println(2.2);
                 }
             }
         });
